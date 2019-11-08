@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+  **A relational database is the database software itself, which manages storage, updating, etc.  SQL is one of many relational databases**
+
 - [ ] Why do tables need a `primary key`?
+
+  **Everything needs a unique key so that we can find it in the database.**
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+  **foreign key**
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+    **we need a whole separate table for a many to many relationship**
 
 ## Minimum Viable Product
 
