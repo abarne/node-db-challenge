@@ -2,9 +2,19 @@ const db = require('../db-config');
 
 module.exports = {
 	//exports here
-	getProjects
+	getProjects,
+	getResources,
+	getTasks
 };
 
 function getProjects() {
-	return db('Projects');
+	return db('projects');
+}
+
+function getResources() {
+	return db('resources');
+}
+
+function getTasks() {
+	return db('tasks');
 }
